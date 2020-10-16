@@ -9,7 +9,6 @@ name + " does not play banjo"
 Names given are always valid strings.
 */
 
-function areYouPlayingBanjo(name) {
-  // Implement me
-  return name;
+const areYouPlayingBanjo = (name) => {
+  return name[0].toLowerCase() === 'r' ? name + ' plays banjo' : name + ' does not play banjo';
 }
